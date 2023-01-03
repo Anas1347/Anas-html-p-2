@@ -1,4 +1,7 @@
-.pg{background-color: aquamarine;
+*{
+    background-color: rgb(204, 214, 200);
+}
+.pg{color: rgb(26, 151, 201);
     width: 800px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 10px;
@@ -7,4 +10,42 @@
     box-shadow: 10px 5px 5px;
    
     
+}
+h1 {
+    background-color: aqua;
+    width:fit-content;
+    margin-left: 320px;
+    border-radius: 10px;
+    padding: 5px;
+    
+
+}
+h3 {
+    color: rgb(81, 128, 21);
+    font-size:30px;
+}
+h4{
+    color: darkcyan;
+    background-color: rgb(211, 165, 40);
+    width: fit-content;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px;
+}
+.li {color: rgb(244, 14, 252);
+
+}
+#lii{color: rgb(177, 74, 6);
+
+}
+.ul {
+    color: crimson;
+}
+ol {
+    color: rgba(9, 22, 207, 0.795);
+}
+a {
+    text-decoration: underline wavy;
+    color: black;
 }
