@@ -5,10 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module 3 Practice</title>
+    <link rel="stylesheet" href="module3.css">
+    <style>
+        label {
+            display: block;
+            margin: 5px;
+        }
+    </style>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid crimson;
+            padding: 5px 20px ;
+        }
+    </style>
     <link rel="shortcut icon" href="html-icon.png" type="image/x-icon">
 </head>
 <body>
-
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://a1itfirm.com/" target="_blank">Home</a></li>
+                <li><a href="https://a1itfirm.com/services/" target="_blank">Services</a></li>
+                <li><a href="https://a1itfirm.com/lead-generation/" target="_blank">Lead Generation</a></li>
+                <li>
+                    <a href="https://a1itfirm.com/about/" target="_blank">About</a>
+                <ul class="dropdown">
+                    <li>Anik</li>
+                    <li>Samir</li>
+                    <li>Sharif</li>
+                    <li>Jafor</li>
+                </ul>
+                </li>
+                <li><a href="https://a1itfirm.com/contact/" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+        <h2>Practice</h2>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam.</p>
+    </header>
+       
+        <main>
+            <section>
+                <article>
+                    <h3>My Blog </h3>
+                    <img src="de.jpg" alt="Nothing here">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, itaque! Obcaecati excepturi, nobis minima deserunt doloribus unde dignissimos aliquam odio exercitationem officiis eum. Quo eveniet architecto delectus hic ipsum iusto consequuntur aliquam, eos ad, nam, incidunt ipsa esse earum doloremque ratione placeat dignissimos. Adipisci saepe, reiciendis dicta recusandae nostrum fuga?</p>
+                </article>
+             </section>
+             <section>
+                <div>
+                    <h4>Sajek Tour</h4>
+                </div>
+                <div>
+                    <h4>St. Martin</h4>
+                </div>
+             </section>
+        </main>
+        <h4>From Model</h4>
+        <form>
+            <label for="name"> Your Name <input type="text"  id="name" placeholder="Your Name"></label>
+            <label for="">Your Number <input type="number" placeholder="Your Number"></label>
+            <label for="email"> Your Email <input type="text"  id="email" placeholder="Your Email"></label>
+         <fieldset>
+            <h5>Take Your Gift</h5>
+            <legend>Pick One Phone</legend>
+            <label for="Samsung">
+                <input type="radio" name="Mobile" id="Samsung">Samsung
+            </label>
+            <label for="Ipad">
+                <input type="radio" name="Mobile" id="Ipad">Ipad
+            </label>
+            <label for="Nokia">
+                <input type="radio" name="Mobile" id="Nokia">Nokia
+            </label>
+         </fieldset>   
+         <fieldset>
+            <legend>
+                Free With Phone</legend>
+                <label for="Ear Buds"><input type="checkbox" name="free" id="Ear Buds">Ear Buds
+            </label>
+                <label for="SOund Box"><input type="checkbox" name="free" id="Sound Box">Sound Box
+            </label>
+                <label for=""><input type="checkbox" name="free" id="Cover">Cover
+            </label>         
+         </fieldset>
+         <fieldset>
+            <legend>Give Your Valuable Feedback</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+         </fieldset>
+         <input type="reset" value="Reset">
+         <input type="submit" value="Submit">
+        </form>
+        <h3>Table Practice</h3>
+        <table>
+            <thead>
+                <th>NO.</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Device</th>
+            </thead>
+           <tbody>
+            <tr>
+                <td>1</td>
+                <td>sam</td>
+                <td>500</td>
+                <td>phone</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ateve</td>
+                <td>5000</td>
+                <td>tablet</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Anas</td>
+                <td>300</td>
+                <td>ipad</td>
+            </tr>
+           </tbody>
+        </table>
 </body>
 </html>
